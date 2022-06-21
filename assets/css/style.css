@@ -143,6 +143,10 @@ section {
   border-radius: 15px;
 }
 
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
+
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
@@ -181,9 +185,6 @@ section {
   border-radius: 10px;
 } 
 
-.hero-form button:hover {
-  background-color: #39a6b2;  
-}
 /* HERO STYLES END */
 
 
@@ -236,10 +237,6 @@ section {
 }
 
 .step:not(:last-child) {
-  border-bottom: 1px solid #39a6b2;
-}
-
-.step:nth-child(even) {
   border-bottom: 1px solid #39a6b2;
 }
 
